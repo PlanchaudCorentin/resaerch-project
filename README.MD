@@ -7,7 +7,10 @@
 Node is required if you don't have it install it.
 
 Run in the socket server directory:
-`npm install`
+```
+npm install
+node index.js
+```
 
 ## Build the ionic app
 
