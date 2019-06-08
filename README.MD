@@ -1,15 +1,15 @@
--Deploy the project for test
+# Deploy the project for test
 
 `git clone https://github.com/PlanchaudCorentin/research-project.git`
 
---deploy the socket server 
+## deploy the socket server 
 
 Node is required if you don't have it install it.
 
 Run in the socket server directory:
 `npm install`
 
---Build the ionic app
+## Build the ionic app
 
 Before hand you have to specify the socket server ip in the app.module.ts
 
@@ -19,20 +19,24 @@ const config: SocketIoConfig = { url: 'http://your.server.ip.address:3002', opti
 
 run in the IMUPhone directory:
 
-`npm install
+```
+npm install
 ionic state restore --plugins
-ionic cordova build android`
+ionic cordova build android
+```
 
 You need to have Android Sdk installed
 You might have to set those environment variables:
 
-`set PATH $PATH:$HOME/Android/Sdk/tools
+```
+set PATH $PATH:$HOME/Android/Sdk/tools
 set ANDROID_HOME $HOME/Android/Sdk
-export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=https://services.gradle.org/distributions/gradle-4.4-all.zip`
+export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=https://services.gradle.org/distributions/gradle-4.4-all.zip
+```
 
 Then install it on any android 8+ phone
 
---run the java client
+## run the java client
 
 run in the sock directory:
 `mvn install`

@@ -33,5 +33,7 @@ IMUPhone/.DS_Store
 IMUPhone/Thumbs.db
 IMUPhone/UserInterfaceState.xcuserstate
 
+socket-server/.idea
 socket-server/node_modules/
  
+sock/.idea
