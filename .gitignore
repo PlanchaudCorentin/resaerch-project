@@ -1,0 +1,37 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+IMUPhone/*~
+IMUPhone/*.sw[mnpcod]
+IMUPhone/*.log
+IMUPhone/*.tmp
+IMUPhone/*.tmp.*
+IMUPhone/log.txt
+IMUPhone/*.sublime-project
+IMUPhone/*.sublime-workspace
+IMUPhone/.vscode/
+IMUPhone/npm-debug.log*
+
+IMUPhone/.idea/
+IMUPhone/.ionic/
+IMUPhone/.sourcemaps/
+IMUPhone/.sass-cache/
+IMUPhone/.tmp/
+IMUPhone/.versions/
+IMUPhone/coverage/
+IMUPhone/www/
+IMUPhone/node_modules/
+IMUPhone/tmp/
+IMUPhone/temp/
+IMUPhone/platforms/
+IMUPhone/plugins/
+IMUPhone/plugins/android.json
+IMUPhone/plugins/ios.json
+IMUPhone/$RECYCLE.BIN/
+
+IMUPhone/.DS_Store
+IMUPhone/Thumbs.db
+IMUPhone/UserInterfaceState.xcuserstate
+
+socket-server/node_modules/
+ 

@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 	res.send({test: 'hello'})
 });
 
-var port = 3001;
+var port = 3002;
 
 http.listen(port, () => {
 	console.log('listening in http://localhost:' + port);
