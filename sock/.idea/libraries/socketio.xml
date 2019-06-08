@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="socketio">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../research-project/yunba-socket.io-java-sdk/jar/socketio.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

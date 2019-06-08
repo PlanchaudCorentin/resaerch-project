@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>motion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>Motion</h1>
+  <div>
+    <div>
+      x:{{this.accelerationData.x}}
+    </div>
+    <div>
+      y:{{this.accelerationData.y}}
+    </div>
+    <div>
+      z:{{this.accelerationData.z}}
+    </div>
+    <div>
+      true direction:{{this.orientationData.trueHeading}}
+    </div>
+    <div>
+      magnetic direction:{{this.orientationData.magneticHeading}}
+    </div>
+    <ion-button href="/home">retour</ion-button>
+  </div>
+</ion-content>
